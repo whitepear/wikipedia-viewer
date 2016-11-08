@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wikipedia Viewer</title>
+	<meta name="description" content="Wikipedia Viewer">
+
+ 	<!-- Normalize CSS -->
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+
+	<!-- Ensures proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+
+ 	<!-- Font Awesome Icons -->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+ 	<!-- Google Font -->
+ 	<link href='https://fonts.googleapis.com/css?family=Raleway:300|Open+Sans:300' rel='stylesheet' type='text/css'>
+ 	
+	<!-- Custom CSS -->
+	<link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="searchContainer">
+			<div class="searchControls">
+				<input type="text" class="searchBar"></input>
+				<button id="searchStart"><i class="fa fa-search"></i></button>
+				<div class="suggestContainer"></div>
+				<a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank" id="randomArticle"><button>Random</button></a>
+			</div>
+			<div class="resultsContainer"></div> 			
+		</div>
+	</div>	
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="script.js"></script>
+</body>
+</html>
